@@ -1,0 +1,85 @@
+/* Dashboard.css */
+h2 {
+  margin-bottom: 10px;
+}
+
+.Card {
+  margin-bottom: 20px;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 0.2rem;
+  color: var(--bs-card-color);
+}
+
+.summary-card {
+  text-align: center;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.totalorders-card {
+  text-align: center;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.lowstock-card {
+  text-align: center;
+  background: #8686e3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #8686e3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #8686e3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.outstock-card {
+  text-align: center;
+  background: #9796f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fbc7d4,
+    #9796f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fbc7d4,
+    #9796f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.recent-order-card {
+  background: #ba5370; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f1c2a9,
+    #d56988
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f1c2a9,
+    #d56988
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+}

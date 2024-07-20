@@ -1,0 +1,32 @@
+/* Home.css */
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.custom-card-body {
+  padding: 2rem !important; /* Add more padding here to make it more spacious */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.clickable-card {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.clickable-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card-height {
+  height: 400px; /* Adjust this value as needed */
+}
+
+.custom-card-title {
+  font-size: 1.25rem; /* Adjust font size if needed */
+}

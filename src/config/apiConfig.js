@@ -1,0 +1,38 @@
+export const ENDPOINTS = {
+  login: "/api/v1/auth/login",
+  orderCount: "/api/v1/orders/count",
+  getAllProducts: "/api/v1/products",
+  getProductByBarcode: "/api/v1/products/barcode",
+  saveProduct: "/api/v1/products",
+  getAllSuppliers: "/api/v1/suppliers",
+  getAllOrders: "/api/v1/orders/pageable",
+  createOrder: "/api/v1/orders",
+  getProductsByOrder: "/api/v1/order-details/product",
+  saveOrderDetails: "/api/v1/order-details/all",
+  getOrderDetails: "/api/v1/order-details",
+  getCustomerByPhone: "/api/v1/customers/phone-number",
+  createCustomer: "/api/v1/customers",
+  getUsers: "/api/v1/users",
+  // New endpoints for reports
+  countTotalProducts: "/api/v1/products/count",
+  countProductsByDepartment: "/api/v1/products/count-by-department",
+  countProductsByCategory: "/api/v1/products/count-by-category",
+  findStockLevelsByProduct: "/api/v1/products/stock-levels",
+  findTopMostStockedProducts: "/api/v1/products/most-stocked-products",
+  findTopLeastStockedProducts: "/api/v1/products/least-stocked-products",
+  findSupplierContributionToStock: "/api/v1/products/supplier-contribution",
+  findTopSuppliersByNumberOfProductsSupplied: "/api/v1/products/top-suppliers",
+  findProductsWithNoStock: "/api/v1/products/no-stock",
+  // New endpoints from OrderController
+  findTotalSalesByMonth: "/api/v1/orders/sales/month",
+  findTotalSalesByYear: "/api/v1/orders/sales/year",
+  findCustomerOrderFrequency: "/api/v1/orders/customer/frequency",
+  findTopCustomersBySalesVolume: "/api/v1/orders/customer/top",
+  findOrdersByDay: "/api/v1/orders/orders/day",
+  findAverageOrderValue: "/api/v1/orders/orders/average",
+  // New endpoints from OrderDetailController
+  findTopBestSellingProducts: "/api/v1/order-details/best-selling-products",
+  findSalesByProductCategory: "/api/v1/order-details/sales/product-category",
+  findSalesByProductDepartment:
+    "/api/v1/order-details/sales/product-department",
+};

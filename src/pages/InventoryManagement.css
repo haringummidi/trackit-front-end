@@ -1,0 +1,22 @@
+/* InventoryManagement.css */
+h2 {
+  margin-bottom: 20px;
+}
+
+.Card {
+  margin-bottom: 20px;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.inventory-chart {
+  display: flex;
+  align-items: flex-end;
+}
+
+.inventory-chart .bar {
+  margin: 10px;
+  background-color: blue;
+}

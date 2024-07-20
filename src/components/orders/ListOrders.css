@@ -1,0 +1,112 @@
+.scrollable-list {
+  max-height: 700px; /* Adjust the height as needed */
+  overflow-y: auto;
+  padding-right: 15px; /* Optional: to avoid the scrollbar overlapping content */
+}
+
+.scrollable-list::-webkit-scrollbar {
+  width: 8px; /* Adjust the width of the scrollbar */
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar */
+  border-radius: 4px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovered */
+}
+
+.pagination-container {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.pagination-container::-webkit-scrollbar {
+  height: 8px; /* Adjust the height of the scrollbar */
+}
+
+.pagination-container::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar */
+  border-radius: 4px;
+}
+
+.pagination-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovered */
+}
+
+/* Custom card styles */
+.custom-card-0 {
+  background: linear-gradient(135deg, #a770ef, #fdb99b);
+}
+
+.custom-card-1 {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.custom-card-2 {
+  /* background: linear-gradient(135deg, #43cea2, #185a9d); */
+  background: #b24592; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f15f79,
+    #b24592
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f15f79,
+    #b24592
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.custom-card-3 {
+  /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b06ab3,
+    #4568dc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.custom-card-0 .btn-light {
+  color: #a770ef;
+  border-color: #a770ef;
+}
+
+.custom-card-1 .btn-light {
+  color: #ff7e5f;
+  border-color: #ff7e5f;
+}
+
+.custom-card-2 .btn-light {
+  color: #b24592;
+  border-color: #b24592;
+}
+
+.custom-card-3 .btn-light {
+  color: #4568dc;
+  border-color: #4568dc;
+}
+
+.custom-card-0,
+.custom-card-1,
+.custom-card-2,
+.custom-card-3 {
+  transition: transform 0.7s;
+}
+
+.custom-card-0:hover,
+.custom-card-1:hover,
+.custom-card-2:hover,
+.custom-card-3:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02);
+}
